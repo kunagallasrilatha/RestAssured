@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="aPIs.Api1">
+      <class name="aPIs.Databasetesting">
         <methods>
-          <include name="specificseriveri"/>
+          <include name="insertdat"/>
         </methods>
-      </class> <!-- aPIs.Api1 -->
+      </class> <!-- aPIs.Databasetesting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

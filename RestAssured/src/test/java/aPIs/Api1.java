@@ -17,11 +17,6 @@ public class Api1 {
 		request.baseUri("https://restful-booker.herokuapp.com/booking");
 
 		Response respone = request.get();
-
-		/*
-		 * System.out.println(respone.getStatusCode());
-		 * System.out.println(respone.getStatusLine());
-		 */
 		System.out.println(respone.getBody().asPrettyString());
 		System.out.println(respone.getStatusCode());
 		System.out.println(respone.getStatusLine());
